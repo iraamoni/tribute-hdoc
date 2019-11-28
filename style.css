@@ -1,11 +1,11 @@
 
 body {
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(245, 245, 245);
 }
 
 #main {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #222;
+    font-family: roboto;
+    color: rgb(38, 38, 38);
     margin-top: 50px;
 }
 
@@ -15,8 +15,63 @@ body {
     font-size: 1.5em;
 }
 
-#title p{
+#title {
     text-align: center;
     font-size: 1em;
+    color: rgb(46, 46, 46);
+}
+
+#img-div {
+    margin: 10px 20px;
+    background-color: #fff;
+}
+
+#img-caption {
+    font-size: 1em;
     color: #555;
+    text-align: center;
+    margin: 30px;
+    padding-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+#tribute-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 45%;
+    line-height: 1.3;
+    color: #555;
+}
+
+#tribute-info h1 {
+    margin: 40px;
+    font-size: 1.2em;
+}
+
+li {
+    margin-top: 25px;
+}
+
+li span {
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+}
+
+h3 {
+    text-align: center;
+    margin: 50px;
 }
